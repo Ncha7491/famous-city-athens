@@ -186,4 +186,25 @@ table {
     width: 20rem;
     display: block;
   }
-    
+
+/*  Responsive Design  */
+@media screen and (max-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  
+    main, aside {
+      float: none;
+      width: 100%;
+    }
+  
+    iframe, figure img {
+      width: 100%;
+    }
+  
+    input, select, textarea {
+      width: 100%;
+    }
+  }
+  
+  
