@@ -1,0 +1,67 @@
+/* Nageswar Char - 9027491 */
+/* 
+   This file styles the Athens city webpage.
+   It follows the rules provided in Assignment 2.
+   All CSS is explained with comments for clarity.
+*/
+
+/* === Root element: Set default font and size === */
+html {
+    font: normal small-caps normal 20px/1.5 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+  }
+  
+  /* === Body Styling === */
+  body {
+    max-width: 1000px;
+    margin: 0 auto; /* Center the body */
+    padding: 2rem;
+    border: 0.2rem solid #ccc;
+    background-color: #ffffff; /* White background */
+  }
+  
+  /* === Layout using floats === */
+  main {
+    float: left;
+    width: 70%;
+    padding: 1.5rem;
+  }
+  
+  aside {
+    float: right;
+    width: 30%;
+    padding: 1.5rem;
+  }
+  
+  /* Clear floats for footer */
+  footer {
+    clear: both;
+  }
+  
+  /* === Header and Footer Styling === */
+  h1 {
+    font-size: 2.5rem;
+    color: #003366;
+    text-align: center;
+    background: linear-gradient(to right, #d9e6f2, #b3cce6);
+    padding: 1rem;
+  }
+  
+  footer {
+    font-size: 0.8rem;
+    text-align: center;
+    background: linear-gradient(to right, #f0f0f0, #d9d9d9);
+    padding: 1rem;
+  }
+  
+  /* Section headings (h2) styling */
+  h2 {
+    font-family: 'Georgia', serif;
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    color: #333366;
+    text-align: left;
+  }
+  
+  
