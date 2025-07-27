@@ -75,7 +75,7 @@ blockquote {
     box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
   }
   
-  /* === Figure, Figcaption, Image Styling === */
+  /* = Figure, Figcaption, Image Styling = */
   figure {
     border: 0.2rem solid #ddd;
     border-radius: 0.5rem;
@@ -97,3 +97,49 @@ blockquote {
     font-variant: small-caps;
   margin-top: 0.5rem;
 }
+
+/* = iFrame Styling = */
+iframe {
+    display: block;
+    width: 100%;
+    border: 0.2rem solid #999;
+    margin: 1rem auto;
+  }
+  
+  /* = Quote Styling = */
+  #quote {
+    border: 0.2rem solid #999;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    width: 85%;
+    margin: 1rem auto;
+    font-family: 'Courier New', monospace;
+    font-style: italic;
+    color: #444;
+    padding: 1rem;
+  }
+  
+  /* = List and Link Styling = */
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  a:link {
+    color: #003399;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #660066;
+  }
+  
+  a:hover {
+    color: #cc0000;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: #ff6600;
+  }
+  
+  
